@@ -16,7 +16,7 @@ Antes de interactuar con el agente, es fundamental establecer el contexto. Crea 
 * 📂 `objetivos-proyecto.md`: Define el alcance, metas y entregables del desarrollo.
 * 📂 `instrucciones-proyecto.md`: Detalla las reglas de negocio, dependencias y restricciones técnicas.
 
-> 💡 **Guía de referencia:** Para redactar correctamente estos archivos, consulta la documentación detallada en [archivos-objetivos-especificaciones.md](https://www.google.com/search?q=archivos-objetivos-especificaciones.md).
+> 💡 **Guía de referencia:** Para redactar correctamente estos archivos, consulta la documentación detallada en [archivos-objetivos-especificaciones.md](archivos-objetivos-especificaciones.md).
 
 ---
 
@@ -27,7 +27,7 @@ Una vez definidos los archivos de contexto, utiliza los comandos de barra diagon
 1. **`/new`**: Utiliza este comando para indicarle al agente la creación del nuevo espacio.
 2. **`/init`**: Inicializa la estructura de directorios y los archivos base del proyecto de forma automatizada.
 
-> 📘 **Nota:** El comportamiento y la configuración de estos comandos se encuentran detallados en la guía de [archivos-objetivos-especificaciones.md](https://www.google.com/search?q=archivos-objetivos-especificaciones.md).
+> 📘 **Nota:** El comportamiento y la configuración de estos comandos se encuentran detallados en la guía de [archivos-objetivos-especificaciones.md](archivos-objetivos-especificaciones.md).
 
 ---
 
