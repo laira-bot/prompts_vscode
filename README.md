@@ -16,7 +16,7 @@ Antes de interactuar con el agente, es fundamental establecer el contexto. Crea 
 * 📂 `objetivos-proyecto.md`: Define el alcance, metas y entregables del desarrollo.
 * 📂 `instrucciones-proyecto.md`: Detalla las reglas de negocio, dependencias y restricciones técnicas.
 
-> 💡 **Guía de referencia:** Para redactar correctamente estos archivos, consulta la documentación detallada en [archivos-objetivos-especificaciones.md](archivos-objetivos-especificaciones.md).
+> 💡 **Guía de referencia:** Para redactar correctamente estos archivos, consulta la documentación detallada en [archivos-objetivos-especificaciones.md](creacion-objetivos-especificaciones-proyecto.md).
 
 ---
 
