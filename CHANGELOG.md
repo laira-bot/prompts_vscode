@@ -9,6 +9,8 @@ consulta en evolución continua, no un paquete de software versionado.
 ## [Unreleased]
 
 ### Added
+- `guia-copilot-vscode.md` — nueva sección 6 con el mapa de comandos vigentes, verificado el 2026-10-30 (flujo, desarrollo diario y sesión/diagnóstico).
+- `README.md` — nota de migración sobre la deprecación de los *chat participants*.
 - `LICENSE` — se adopta Creative Commons Attribution 4.0 International (CC BY 4.0) para el contenido del repositorio.
 - `CHANGELOG.md` — este archivo, para llevar registro de cambios relevantes en la guía.
 - `README.md` — mapa de documentos y ruta de lectura recomendada.
@@ -23,9 +25,12 @@ consulta en evolución continua, no un paquete de software versionado.
 
 ### Fixed
 - Enlaces internos del `README.md` que apuntaban a un documento distinto del que anunciaba su texto.
+- `/init` descrito según su alcance actual: genera o actualiza las instrucciones del workspace, no configuraciones de entorno ni scaffolding.
+- `@workspace` sustituido por el agente Plan (`/plan`) y las menciones `#codebase` / `#file` en los cuatro documentos afectados.
 
 ### Removed
 - `guia.md` — contenido incorporado a `guia-copilot-vscode.md`.
+- Ejemplos de prompt basados en `@workspace`, por estar el *chat participant* deprecado.
 
 ## [2026-07-06] - Versión inicial
 
