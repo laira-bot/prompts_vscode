@@ -2,11 +2,13 @@
 
 Esta guía detalla cómo sacar el máximo provecho a los comandos de inicialización de entornos agénticos en GitHub Copilot y proporciona un generador de prompts especializado para automatizar la creación de tus reglas de espacio de trabajo.
 
-# 1. Sugerencias de Uso para ``/init`` y ``/create-instructions``
+> 🗓️ **Vigencia:** verificada por última vez el **2026-10-30**. Complementa la sección 4 de [guia-copilot-vscode.md](guia-copilot-vscode.md), que cubre el mismo tema desde el flujo completo del proyecto.
+
+## 1. Sugerencias de Uso para ``/init`` y ``/create-instructions``
 
 Ambos comandos sirven para automatizar la creación de directrices dentro de tu espacio de trabajo, pero tienen propósitos y alcances muy distintos:
 
-## Comando ``/init`` (Inicialización Global)
+### Comando ``/init`` (Inicialización Global)
 
 Este comando se utiliza al inicio del ciclo de vida del proyecto o cuando se establece el espacio de trabajo por primera vez. Su objetivo es estructurar el archivo maestro ``.github/copilot-instructions.md``.
 
@@ -16,7 +18,7 @@ Este comando se utiliza al inicio del ciclo de vida del proyecto o cuando se est
 
     ``/init para un backend en Go utilizando Clean Architecture, PostgreSQL con gorm, y Docker para contenedores. Define reglas estrictas para el manejo de errores idiomáticos y logging con Zap.``
 
-## Comando ``/create-instructions`` (Instrucciones Contextuales)
+### Comando ``/create-instructions`` (Instrucciones Contextuales)
 
 Este comando se utiliza para crear archivos ``.instructions.md`` dentro de subcarpetas o para módulos específicos del repositorio, limitando su alcance mediante metadatos (como ``applyTo``).
 
@@ -26,7 +28,7 @@ Este comando se utiliza para crear archivos ``.instructions.md`` dentro de subca
 
     ``/create-instructions para la carpeta /tests utilizando pytest y bases de datos mockeadas con pytest-mock. Configura reglas de aislamiento de base de datos para que aplique solo a archivos *.test.py.``
 
-# 2. Prompt Maestro para Nueva Sesión
+## 2. Prompt Maestro *one-shot* para Nueva Sesión
 
 Copia y pega el siguiente bloque en una nueva sesión de chat de Copilot cuando desees que la IA diseñe a medida los dos prompts de inicialización para un nuevo proyecto:
 
@@ -42,7 +44,7 @@ Escribe ambos prompts resultantes dentro de bloques de código Markdown con inst
 [Aquí debes escribir de forma detallada qué es lo que quieres desarrollar. Por ejemplo: "Quiero desarrollar una plataforma de e-commerce utilizando Next.js 14 App Router, TypeScript, Tailwind CSS y Stripe para pagos. El proyecto debe seguir principios de arquitectura de carpetas modular, tipado estricto sin usar 'any', accesibilidad web WCAG AA, y pruebas unitarias con Jest en la carpeta /components."]
 ```
 
-# 3. Ejemplo Práctico de Salida Esperada
+## 3. Ejemplo Práctico de Salida Esperada
 
 Si ejecutas el prompt anterior con las indicaciones de la plataforma de e-commerce, el agente te devolverá dos instrucciones optimizadas similares a estas:
 

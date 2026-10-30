@@ -2,6 +2,8 @@
 
 Esta guía unifica el flujo de trabajo secuencial y avanzado para inicializar, estructurar, desarrollar y gobernar un proyecto de software o ciencia de datos utilizando las capacidades de agente y comandos de barra diagonal (`/`) en GitHub Copilot para VS Code, junto con plantillas de prompts listas para usar en cada fase.
 
+> 🗓️ **Vigencia:** verificada por última vez el **2026-10-30**. Los comandos de Copilot Chat cambian entre releases de VS Code; si detectas una diferencia con tu versión, abre un issue.
+
 ---
 
 ## Flujo de Trabajo Secuencial
@@ -100,9 +102,11 @@ Definir directrices persistentes de estilo, diseño y arquitectura que Copilot r
 
 ---
 
-## 5. PROMPT Maestro (Diseñador de Prompts)
+## 5. Prompt Maestro (interactivo) | Diseñador de Prompts
 
 Cuando no tengas claro cómo formular el prompt ideal para `/new` o `/init`, copia y pega este meta-prompt en Copilot Chat (o en tu LLM preferido) para que te guíe con preguntas antes de generar el resultado final.
+
+> 🔀 **No lo confundas** con el Prompt Maestro *one-shot* de [instrucciones-y-prompts-para-agentes.md](instrucciones-y-prompts-para-agentes.md): este **pregunta antes de responder**; aquel parte de unas especificaciones que ya tienes escritas. Usa el interactivo si vienes de cero y el one-shot si ya sabes qué quieres construir.
 
 ```text
 Actúa como un Ingeniero de Prompts experto en desarrollo de software y GitHub Copilot.
